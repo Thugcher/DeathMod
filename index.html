@@ -14,18 +14,47 @@
     header {
       background: #1c1c1c;
       padding: 20px;
-      text-align: center;
       border-bottom: 2px solid #555;
+      position: relative;
     }
-    header img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      margin-bottom: 15px;
+    .header-content {
+      text-align: center;
     }
     header h1 {
       margin: 0;
       font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 15px;
+      font-size: 1.1em;
+      color: #ccc;
+    }
+    header img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 0;
+    }
+    .team-box {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #222;
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: 1px solid #444;
+    }
+    .team-box h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-size: 1em;
+      color: #00bfff;
+    }
+    .team-box ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      font-size: 0.9em;
     }
     .container {
       max-width: 900px;
@@ -54,16 +83,27 @@
 <body>
 
 <header>
-  <img src="https://cdn.discordapp.com/attachments/1355343837211398386/1386939115056136212/raw.png?ex=685c2ff5&is=685ade75&hm=c29b8e4452c3d2647b2812d5450c6c6ab88ee9dca1fc36dc61ed957ba8a05764&" alt="DeathMod Logo">
-  <h1>DeathMod</h1>
-  <p>Mods for Death in the Water 1 & 2 – Singleplayer, Dev Approved</p>
+  <div class="header-content">
+    <h1>DeathMod</h1>
+    <p>Mods for Death in the Water 1 & 2 – Singleplayer, Dev Approved</p>
+    <img src="https://cdn.discordapp.com/attachments/1355343837211398386/1386939115056136212/raw.png?ex=685c2ff5&is=685ade75&hm=c29b8e4452c3d2647b2812d5450c6c6ab88ee9dca1fc36dc61ed957ba8a05764&" alt="DeathMod Logo">
+  </div>
+
+  <div class="team-box">
+    <h3>Our Team</h3>
+    <ul>
+      <li>Daniel</li>
+      <li>Edward</li>
+      <li>DDTheKidd</li>
+    </ul>
+  </div>
 </header>
 
 <div class="container">
 
   <div class="section">
     <h2>📢 About DeathMod</h2>
-    <p>We're a small modding group passionate about *Death in the Water 1 & 2*. All our mods are made for singleplayer use. </p>
+    <p>We're a small modding group passionate about *Death in the Water 1 & 2*. All our mods are made for singleplayer use, fully within the guidelines allowed by Lighthouse Games Studios.</p>
   </div>
 
   <div class="section">
